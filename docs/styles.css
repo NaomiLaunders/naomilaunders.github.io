@@ -1,0 +1,13 @@
+/* css styles */
+
+.bullets {
+  text-align: left;
+}
+
+.tight {
+  line-height: 1; /* 1.5 times the font size */
+}
+
+.navbar-logo {
+  max-height: 100px;
+}
