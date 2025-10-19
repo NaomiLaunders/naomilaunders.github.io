@@ -1,0 +1,56 @@
+{
+  "index.qmd": {
+    "index.html": "30f7cf2b"
+  },
+  "about.qmd": {
+    "about.html": "b241750d"
+  },
+  "teaching.qmd": {
+    "teaching.html": "46280c78"
+  },
+  "cv.qmd": {
+    "cv.html": "f9fe658e"
+  },
+  "talks.qmd": {
+    "talks.html": "b1a0e982"
+  },
+  "news.qmd": {
+    "news.html": "62d6e7e5"
+  },
+  "projects.qmd": {
+    "projects.html": "0b711ce3"
+  },
+  "opensci.qmd": {
+    "opensci.html": "ee7a384d"
+  },
+  "outreach.qmd": {
+    "outreach.html": "9842d3c0"
+  },
+  "projects_files/UKLLC_begins/UKLLC_begins.qmd": {
+    "UKLLC_begins.html": "67bc4b88"
+  },
+  "posts/projects.qmd": {
+    "projects.html": "d106c66e"
+  },
+  "posts/UKLLC_begins/index.qmd": {
+    "index.html": "bbd0381c"
+  },
+  "posts/BHF_Approved/index.qmd": {
+    "index.html": "b1167d65"
+  },
+  "publications.qmd": {
+    "publications.html": "74e7ab76"
+  },
+  "posts/ExceptionReports/index.qmd": {
+    "index.html": "5818f507"
+  },
+  "posts/TalkEdinburgh/index.qmd": {
+    "index.html": "c3989084"
+  },
+  "posts/HDRInternApp/index.qmd": {
+    "index.html": "3818f104"
+  },
+  "posts/SocialPrescribing/index.qmd": {
+    "index.html": "2fe7fbf9"
+  }
+}

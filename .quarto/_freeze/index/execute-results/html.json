@@ -1,0 +1,15 @@
+{
+  "hash": "bd21551057aa748085ac828916430536",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"Naomi Launders\"\nimage: \"files/Naomi1.jpg\"\nabout: \n  template: jolla\n  links:\n    - icon: envelope\n      href: mailto:naomi.launders@ucl.ac.uk\n    - icon: linkedin\n      href: https://www.linkedin.com/in/naomi_launders\n    - icon: orcid\n      href: https://orcid.org/0000-0003-4241-938X\n---\n\n\nI am an epidemiologist and data scientist with over 15 years experience using electronic health records to answer complex public health questions.\n\n\n::: {.cell}\n\n```{.r .cell-code}\n1 + 1\n```\n\n::: {.cell-output .cell-output-stdout}\n\n```\n[1] 2\n```\n\n\n:::\n:::\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}
