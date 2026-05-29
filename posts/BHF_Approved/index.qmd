@@ -1,0 +1,27 @@
+---
+title: "Approval to access NHS data through the British Heart Foundation data science centre"
+description: "Whole nation England data will allow us to understand heart failure diagnoses in people with severe or complex mental illness. "
+image: "dataheart.jpg"
+categories: [Data]
+author: "Naomi Launders"
+date: "08/06/2025"
+toc: false
+---
+
+## Using whole nation data to better understand heart failure diagnosis
+
+My latest data application has been approved. This exciting body of work will allow us to say more about how heart failure is diagnosed for people with severe or complex mental illness and how that affects the risk of dying from this disease. The work is really exciting because of the wealth of data we will have access to. This includes GP and hospital data, death certificate data, but also heart failure registry data and mental health services data.
+
+As well as working with the collaborators from my fellowship, I am pleased to work with Dr Kelly Fleetwood, a statistician at the University of Edinburgh who has been working with the BHF Data science centre to study SMI and heart disease, and Dr Ramesh Nadarajah an academic clinical lecturer in cardiology at Leeds University and a fellow HDR UK fellow.
+
+## Why focus on people with severe or complex mental illness?
+
+People with severe mental illness are at increased risk of heart disease. Once diagnosed they are also less likely to receive the best treatment, more likely to have multiple hospital stays and more likely to die due to their heart disease.
+
+Despite this, we don't know very much about how well heart failure is diagnosed in people with severe or complex mental illness. We know for cancer, people with severe mental illness are less likely to attend screening and more likely to be diagnosed at a late stage. We want to find out if the same is true for heart failure, because like cancer, early diagnosis of heart failure is key in improving heart failure outcomes.
+
+### What might the data tell us?
+
+We think the numbers of patients with severe mental illness will likely be small, but the ability to link rich cohort data with electronic health records will be really valuable. It should enable us to take a closer look at who does and doesn't attend cancer screening and physical health checks - hopefully informing targeted approaches to improve screening in people with mental health conditions.
+
+Read more about the planned research [on the BHF data science centre website!](https://bhfdatasciencecentre.org/projects/ccu099/).

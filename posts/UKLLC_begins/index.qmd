@@ -1,0 +1,21 @@
+---
+title: "Fellowship research with the UK LLC"
+description: "Cohort and medical record data will allow us to look in depth at who with severe or complex mental illness attends key physical health screening programmes"
+image: "linkpeople.jpg"
+categories: [Data]
+author: "Naomi Launders"
+date: "07/16/2025"
+toc: false
+---
+
+## Linked data to better understand access to screening
+
+Work on my Health Data Research UK (HDR UK) fellowship is now underway. We have approval to look at cancer screening and cardiovascular disease risk factor screening using data from the [UK Longitudinal Linkage Collaboration](https://ukllc.ac.uk/). I now have access to their novel data - linking many of the UK longitudinal cohort studies to medical records for over 400,000 people.
+
+## What might it tell us?
+
+We think the numbers of patients with severe mental illness will likely be small, but the ability to link rich cohort data with electronic health records will be really valuable. It should enable us to take a closer look at who does and doesn't attend cancer screening and physical health checks - hopefully informing targeted approaches to improve screening in people with mental health conditions.
+
+Read more about the planned research [on the UK LLC website!](https://ukllc.ac.uk/data-use-register/the-role-of-sociodemographic-factors-in-attendance-at-cancer-and-cardiovascular-disease-screening-and-in-delayed-cancer-diagnosis-before-during-and-after-the-covid-19-pandemic-in-people-with-severe-o).
+
+Exciting to look at this in collaboration with Prof David Osborn and Prof Joe Hayes at UCL, Prof Ann John at Swansea University and Dr Caroline Jackson at University of Edinburgh.

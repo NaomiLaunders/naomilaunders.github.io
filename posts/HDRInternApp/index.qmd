@@ -1,0 +1,17 @@
+---
+title: "Our pledge for the HDR UK Black Internship programme"
+description: "We're excited to host an HDR UK intern at UCL this summer as part of the HDR UK Black Internship programme"
+image: "laptop.jpg"
+categories: [Collaborations]
+author: "Naomi Launders"
+date: "10/09/2025"
+toc: false
+---
+
+## Our pledge for the HDR UK Black Internship programme
+
+This week we submitted our pledge for the [HDR UK Black Internship programme](https://www.hdruk.ac.uk/study-and-train/train/health-data-science-black-internship-programme/). This programme offers a paid 8-week internship in data science, alongside training, networking and collaborative opportunities.
+
+I don't yet know what our project will be - something around the intersection of physical and mental health. We'll be hosting the successful applicant in the Division of Psychiatry and in the Advanced Research Computing department - both at UCL. I think being based across these two departments should lead to a really broad and interesting experience.
+
+Watch this space for more information!

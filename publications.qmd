@@ -1,0 +1,116 @@
+---
+title: "Publications"
+html:
+  resources: "files/publications.Rdata"
+  css: styles.css
+toc: false
+---
+
+## Non academic publications
+
+### DATAMIND
+
+[Read our two DATAMIND reports on the use of routine data (Electronic Health Records and longitudinal studies) to study severe mental illness and cardiovascular disease risk factors.](https://datamind.org.uk/datamind-data/harmonised-data/linking-mental-and-physical-health/) They highlight the strengths and challenges of these data, the complexities of defining severe mental illness and differences in recording of severe mental illness, and cardiovascular disease risk factors across the four nations. of the UK
+
+### Office for Health Improvements and Disparities (OHID)
+
+In 2023, I co-authored a report with OHID on all-cause mortality in people with severe mental illness during the COVID-19 pandemic:
+
+[Premature mortality during COVID-19 in adults with severe mental illness](https://www.gov.uk/government/publications/premature-mortality-during-covid-19-in-adults-with-severe-mental-illness/premature-mortality-during-covid-19-in-adults-with-severe-mental-illness)
+
+## Academic publications
+
+Firstly, they say no one ever reads a thesis. So here's mine in the hope someone might!
+
+[Investigating physical health and related secondary care use in people with severe mental illness](https://discovery.ucl.ac.uk/id/eprint/10166822/2/FinalPhD_redacted.pdf)
+
+A full list of my acadmic papers is below, but citations can also be viewed on:
+
+-   [Google scholar](https://scholar.google.com/citations?user=IU3FJEwAAAAJ&hl=en)
+-   [UCL profile](https://profiles.ucl.ac.uk/74515-naomi-launders/publications)
+-   [ORCiD](https://orcid.org/0000-0003-4241-938X)
+-   [PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=launders%20N%5BAuthor%5D&sort=date)
+
+```{r echo=FALSE, message=FALSE, warning=FALSE}
+
+library(scholar) 
+library(tidyverse) 
+
+load("files/publications.Rdata")
+
+NEWpublications <- get_publications("IU3FJEwAAAAJ")%>%
+   arrange(desc(year)) %>%
+   filter(journal != "medRxiv" & journal!="OSF" & journal!="UCL (University College London)"& journal!="Available at SSRN")%>%
+  filter(pubid!="IjCSPb-OGe4C" & pubid!="roLk4NBRz8UC" &pubid!="MXK_kJrjxJIC" & pubid!="KlAtU1dfN6UC" & pubid!="eQOLeE2rZwMC" & pubid!="_Qo2XoVZTnwC" & pubid!="9ZlFYXVOiuMC" & pubid!="RHpTSmoSYBkC" & pubid!="r0BpntZqJG4C")%>%
+   filter(!pubid %in% publications$pubid)
+ 
+ if (dim(NEWpublications)[1] != 0) {
+   NEWpublications<-NEWpublications%>%
+   mutate(author_long = case_when(str_detect(author, pattern = "\\.\\.\\.$") ~ 1, TRUE ~ 0)) %>%
+   mutate(author = case_when(author_long == 1 ~ (get_complete_authors("IU3FJEwAAAAJ", pubid)),TRUE ~ author))%>%
+   mutate(
+     author = str_replace_all(author, "([A-Z]) ([A-Z]) ", "\\1\\2 "),
+     author = str_replace_all(author, "N Launders", "**N Launders**"),
+     author = str_replace_all(author, "NJ Launders", "**NJ Launders**"),
+     author = str_replace_all(author, "N Bryant", "**N Bryant**"),
+     author = str_replace_all(author, "NJ Bryant", "**NJ Bryant**"),
+     author = str_replace_all(author, "N J Bryant", "**N J Bryant**"),
+     title = str_replace_all(title, ":.+", ""),
+     author = str_replace(author, ", (?=[^,]*$)", ", and ")) %>%
+   group_by(pubid)|>
+   mutate(url = get_publication_url("IU3FJEwAAAAJ", pubid)) %>%
+   ungroup()
+   } else if (dim(NEWpublications)[1] == 0) {
+   NEWpublications<-NEWpublications%>%
+     mutate(author_long = NA, url = NA)
+   NEWpublications = NEWpublications[0,]
+   }
+ 
+ publications<-rbind(NEWpublications, publications)
+ 
+ save(publications, file = "files/publications.Rdata")
+ 
+ publications<-publications%>%
+    split(desc(.$year)) %>%
+    map(function(x) {
+      x <- x %>%
+        mutate(
+          citation = paste0(
+            author,
+            ". ",
+            "(",
+            year,
+            ").",
+            " ",
+            "[",
+            title,
+            "]",
+            "(",
+            url,
+            ")",
+            ". ",
+            "*",
+            journal,
+            "*",
+            " ",
+            number,
+            "."
+          )
+        ) %>%
+        select(citation)
+      return(x)
+    })
+ 
+ publications <-
+    map2(substring(names(publications), 2) %>% paste0("<!--", ., "-->"),
+         publications,
+         c) %>%
+    unlist %>%
+    as_tibble() %>%
+    pivot_wider(names_from = value)
+
+```
+
+```{r results = 'asis', echo=FALSE, message=FALSE, warning=FALSE}
+ cat(paste0(publications), sep = "\r  \n")
+```
