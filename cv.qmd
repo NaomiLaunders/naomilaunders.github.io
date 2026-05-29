@@ -1,0 +1,109 @@
+---
+title: "Naomi's CV/resume"
+html:
+  css: styles.css
+toc: false
+---
+
+Here is the most recent version of my CV/resume. Information on my teaching experience, supervision, invited talks, publications and collaborations can be found elsewhere on this website.
+
+# Personal profile
+
+I am an HDR-UK funded research fellow and epidemiologist, with extensive experience of using R and Stata to analyse complex healthcare datasets. I have strong project management and interpersonal skills and have experience of working with a wide range of stakeholders. I am committed to open science, the team science approach, and building skills in others.
+
+# Education / Qualifications
+
+| Qualification                     | Institution                                    | Year |
+|-----------------------|-------------------------------|------------------|
+| PhD in psychiatric epidemiology   | University College London                      | 2023 |
+| MSc Control of Infectious Disease | London School of Hygiene and Tropical Medicine | 2005 |
+| BSc Biology with a Year in Europe | Imperial College London                        | 2004 |
+
+# Professional History
+
+::: tight
+::: bullets
+**Senior research fellow, Division of Psychiatry, UCL, October 2025 – present**<br>
+
+-   October 2025 – Present: HDR-UK funded fellowship to investigate cancer and heart disease in people with severe mental illness using routine data.
+
+**Research fellow, Division of Psychiatry, UCL, November 2022 – October 2025**<br>
+
+-   June 2024 – October 2025: HDR-UK funded fellowship
+-   November 2022 – October 2024: Used electronic health records from across the UK to investigate cardiovascular risk factor screening in patient with severe mental illness and used target trial emulation to investigate the impact of statin prescription on psychiatric symptoms of people with severe mental illness.
+
+**Senior researcher, Respiratory Effectiveness Group, March 2017 to September 2019**<br>
+
+-   Used electronic health records to conduct research in respiratory medicine, using R.
+-   Project managed 14 working groups, consisting of Key Opinion Leaders and experts in the field.
+
+**Lead epidemiologist (verocytotoxin producing E.coli; VTEC), Public Health England, Jun 2011-Apr 2015**<br>
+
+-   Led the epidemiological analysis of the national VTEC enhanced surveillance database, using Stata.
+-   Wrote scientific publications, outbreak reports and media releases.
+-   Investigated national outbreaks of VTEC and provided expert advice in local outbreaks.
+
+**Epidemiologist, Health Protection Agency, Sep 2009-Jun 2011**<br>
+
+-   Conducted outbreak investigations and analysed laboratory data using Stata.
+
+**Senior information analyst, National Travel Health Network and Centre, Jan 2006-Aug 2009**<br>
+
+-   Led the surveillance of international disease outbreaks.
+:::
+:::
+
+# Prizes, Awards and Other Honours
+
+| Award                                                                            | Awarding body                  | Year |
+|-----------------------------------|------------------|------------------|
+| HDR UK travel bursary                                                            | HDR UK                         | 2025 |
+| Michael King Prize: Best PhD thesis on mental health at UCL                      | UCL Institute of Mental Health | 2023 |
+| Funded attendance NIHR Team Science camp on multiple long-term conditions        | NIHR                           | 2023 |
+| UK Health Security Agency Student Day: Best PhD Final Year Presentation          | UK Health Security Agency      | 2022 |
+| UK Health Security Agency Student Day: Runner up: Best PhD Year 1-2 Presentation | UK Health Security Agency      | 2021 |
+| UCL R-Users showcase: Best Pecha Kucha presentation                              | UCL R-user group               | 2021 |
+| Funded place at UseR! Conference                                                 | UCL R-user group               | 2021 |
+
+# Grants
+
+|                                                          |                          |              |          |
+|---------------------|-----------------|-----------------|-----------------|
+| **Grant**                                                | **Awarding body**        | **Role**     | **Year** |
+| Big Data for Complex Disease Driver Programme Fellowship | Health Data Research UK  | PI           | 2024     |
+| NIHR Team Science Award                                  | NIHR                     | Co-PI        | 2024     |
+| NIHR Doctoral fellowship                                 | NIHR                     | Collaborator | 2025     |
+| PhD fellowship                                           | Breast Cancer Now        | Collaborator | 2025     |
+| Pump Priming Award                                       | British Heart Foundation | Collaborator | 2025     |
+
+# Committee membership
+
+-   Editorial board member for BMC Public Health
+-   Peer reviewer and interview panel for the Mental Health Platform Early Career Fellowships
+-   Peer reviewer and interview panel for the Mental Health Platform Collaboration and Innovation award
+-   Member of the NHS England Data for R&D User advisory group
+-   Member of Equally Well UK steering group
+-   Member of the UKRI Talent Peer Review College for Future Leaders Fellowships
+-   Member of the Office for Health Improvement and Disparities Severe Mental Illness expert steering group
+-   Chair of the UCL R-Users group
+-   Member of the UCL Digital Research Committee Advanced Research Computing Department steering group
+-   Co-chair of the Division of Psychiatry, UCL Lunchtime Epi Exchange meetings
+-   Chair of the Mental Health BHF Data Science Centre user group
+
+# Invited peer review
+
+As well as serving on the editorial board of BMC Public Health, I have been invited to peer review for a range of journals, including:
+
+-   British Journal of Psychiatry
+-   PLoS Medicine
+-   The Lancet Psychiatry
+-   The Lancet Primary Care
+-   Chest
+-   Pyschological Medicine
+-   Journal of Psychopharmacology
+-   COPD: Journal of Chronic Obstructive Pulmonary Disease
+-   American Journal of Epidemiology
+-   Schizophrenia Bulletin
+-   PLoS One
+-   IEEE Journal of Biomedical and Health Informatics
+-   Epidemiology and Psychiatric Sciences
