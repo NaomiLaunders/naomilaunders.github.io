@@ -12,18 +12,18 @@ website:
         text: About Naomi
       - href: projects.qmd
         text: Latest research
-      - href: opensci.qmd
-        text: Open science
       - href: news.qmd
         text: In the news
-      - href: cv.qmd
-        text: CV
+      - href: opensci.qmd
+        text: Open science
       - href: publications.qmd
         text: Publications and outputs
       - href: talks.qmd
         text: Talks
       - href: teaching.qmd
         text: Teaching and supervision
+      - href: cv.qmd
+        text: CV
       - href: outreach.qmd
         text: Science club
 
