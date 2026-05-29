@@ -181,23 +181,56 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
+<p>Statins are the most commonly prescribed medicine class in the UK, and are used to reduce cholesterol. Some research suggests that they might improve psychiatric symptoms in people with severe mental illness and we wanted to see if certain statins worked better than others. While our study didn’t find definitive evidence either way, it led to some interesting results and also some important learning for us about the use of target trial emulation. <a href="https://pubmed.ncbi.nlm.nih.gov/41330597/">You can read our study here</a>. I’ve summarised it below, but focused largely on what we learnt.</p>
 <section id="target-trial-emulation-a-route-to-more-robust-observational-epidemiology" class="level2">
 <h2 class="anchored" data-anchor-id="target-trial-emulation-a-route-to-more-robust-observational-epidemiology">Target Trial Emulation: A route to more robust observational epidemiology</h2>
-<p>It’s clear from the literature that target trial emulation is growing in popularity. This rigourous approach to observational epidemiology forces us to think carefully about our study design at the outset. While many researchers will be doing this anyway, the focus on defining everything a priori, and setting a cohort up as if it were a trial offers a robust framework to ensure that each decision is thought through. This is supported by the use of methods of causal epidemiology, to emulate the randomisation of trials and ensure exchangability of both the exposed and unexposed groups.</p>
-<p>With the newly published TAREG</p>
+<p>It’s clear from the literature that target trial emulation (TTE) is growing in popularity. This rigourous approach to observational epidemiology forces us to think carefully about our study design at the outset. While many researchers will be doing this anyway, the focus on setting a cohort up as if it were a trial offers a robust framework to ensure that each decision is thought through. This is supported by the use of statistical methods to emulate the randomisation of trials and ensure exchangability of both the exposed and unexposed groups.</p>
+<p>With the newly published <a href="https://target-guideline.org/">“TrAnsparent reportinG of studies Emulating a Trial” (TARGET) guidelines</a>, reporting of TTEs should be as that robust as the methods!</p>
+<p>TTEs work best for comparative effectiveness, or head-to-head studies. This is because, unlike in a trial, we can’t designate one arm to “placebo”. We could compare people who had never taken the drug, but when do these people join the trial? They could start at a point where they would have been eligible for the drug, but for many conditions this isn’t easily defined in medical records. Take antidepressants for example - it would be hard to determine from primary care records whether someone with depression should or should not be on these. For statins, many patients receive them without a clinical diagnosis of dislipidaemia being recorded, and cholesterol levels may also be incomplete.</p>
 </section>
 <section id="can-we-unpick-mechanisms-of-action-using-this-approach" class="level2">
 <h2 class="anchored" data-anchor-id="can-we-unpick-mechanisms-of-action-using-this-approach">Can we unpick mechanisms of action using this approach?</h2>
+<p>So we wanted to do a head-to-head comparison of different combinations of statins and antipsychotics to see if we could pick apart the mechanisms by which statins improve psychiatric symptoms, and therefore which combinations of antipsychotics and statins should be prescribed.</p>
+<p>There are several mechanisms that might mean some statins improve psychiatric symptoms more than others. Statins are anti-inflammatory, and perhaps those that cross the blood brain barrier reduce inflammation in the brain, and improve symptoms. Another option is that some statins inhibit a membrane protein that antipsychotics use to leave the brain. With this membrane protein out of action, maybe the amount of antipsychotics in the brain remains at a higher concentration. By testing combinations of statins and antipsychotics, we hoped to determine if either of these mechanisms were true.</p>
 </section>
-<section id="a-trial-too-far" class="level2">
-<h2 class="anchored" data-anchor-id="a-trial-too-far">A trial too far?</h2>
+<section id="target-trials-and-tribulations" class="level2">
+<h2 class="anchored" data-anchor-id="target-trials-and-tribulations">Target trials and tribulations</h2>
+<p>So, we set about to see if certain combinations of antipsychotics and statins improved psychiatric symptoms in people with severe mental illness. Here’s what we did:</p>
+<ol type="1">
+<li>We discussed what a hypothetical trial would look like - who would be included, when would follow up start, what would the outcome be, when would follow up end?</li>
+<li>We designed a hypothetical pragmatic trial, and then looked at our data source (which was CPRD - primary care and hospital records for patients in England). We discussed how much of our hypothetical trial would be feasible in CPRD, and where we would be forced to deviate from our ideal. By thinking this through and documenting it, any major limitations in the study design are acknowledged openly.</li>
+<li>We <a href="https://osf.io/hck8n/overview">pre-published our protocol here</a>, to document what we intended to do before we did it.</li>
+<li>We ran the analyses in line with our protocol, published the results and uploaded our code to <a href="https://github.com/NaomiLaunders/Repurposing-statins-in-SMI">GitHub</a>.</li>
+</ol>
+<p>That all sounds simple enough, but in reality there were quite a few hurdles and compromises along the way.</p>
+<section id="methods-issues" class="level3">
+<h3 class="anchored" data-anchor-id="methods-issues">Methods issues</h3>
+<p>Our first issue was defining what we call “time zero”. Aligning time is one of the key concepts in TTE, but in reality can be hard to do. To be in the trial, all patients needed to have a diagnosis of schizophrenia, bipolar disorder or other psychoses, and ongoing prescriptions of antipsychotics. Then, follow up started when they were first prescribed a statin. Ideally, this would be at the time that they were eligible for a statin, but we know there are often delays in a patient being offered, accepting and being prescribed this medication. While we controlled for the time between needing a statin and being prescribed a statin, we couldn’t determine that for all patients. This introduces immortal time into our study - patients can’t</p>
+<p>Our next issue was numbers. Severe mental illness affects around 1% of the population. In CPRD we identified around 300,000 people with severe mental illness. We thought this should be enough to run our study. Of these, around 70,000 people were prescribed statins - still looking good. However, once we applied all our criteria there were between 7,000 and 100 people in each arm of the trial. One of the big problems was that one particular statin was prescribed much more frequently, and so arms where we wanted to compare to that statin were underpowered.</p>
+<p>The next issue was outcomes. Severity of anything is notoriously hard to define in medical records, and severity of mental health symptoms really really hard to do. We defined our outcome as psychiatric admissions to hospital, and recorded self-harm. However, these events represent really severe outcomes and so are far from perfect measures of symptom change. And, at 3, 6, 12 or 24 months after statin prescription me might not expect to see many events. We might also see fewer of these events in the middle-age age groups where statin prescriptions are most common.</p>
+<p>As well as ending up with quite small numbers of individuals in our trials, we also ended up with a select group of individuals who are unlikely to be representative of everyone with severe mental illness. In emulating a Randomised Controlled Trial, we had removed one of the great strengths of observational epidemiology using medical records - that it can be more inclusive, more real-world and more generalisable.</p>
 </section>
-<section id="what-might-i-do-differently-next-time" class="level2">
-<h2 class="anchored" data-anchor-id="what-might-i-do-differently-next-time">What might I do differently next time?</h2>
+<section id="a-trial-too-far" class="level3">
+<h3 class="anchored" data-anchor-id="a-trial-too-far">A trial too far?</h3>
+<p>Finally, possibly the most avoidable issue was the complexity of interpreting and communicating the results. In a bid to be thorough, and to ensure our trial was robust, we:</p>
+<ul>
+<li><p>Ran three trials, two testing the hypothesis that statins which inhibit the membrane protein might improve symptoms, and one testing the hypothesis that those that readily cross the blood brain barrier would be better.</p></li>
+<li><p>Had one primary outcome (psychiatric hospitalisations) and three secondary outcomes (self harm events, accident and emergency admissions and physical health admissions).</p></li>
+<li><p>Looked at 3-month, 6-month, 12-month and 24-month outcomes.</p></li>
+<li><p>Used traditional confounder adjustment as well as inverse probability weighting to balance the trial arms and emulate randomisation. We also ran multiple models designs, and an intention to treat as well as a per-protocol analysis.</p></li>
+</ul>
+<p>We pre-specified all this in our protocol, but as is so often the case, less is more. While we didn’t mine the data, only did what we said we would do, and tried not to over-interpret any results we found, running so many analyses potentially confused the picture, rather than bringing clarity. If we were to do it again, I would have made firmer decisions on our methods at the outset, reducing both the burden of analysis and the complexity of interpretation!</p>
+</section>
+</section>
+<section id="so-what-did-we-find" class="level2">
+<h2 class="anchored" data-anchor-id="so-what-did-we-find">So what did we find?</h2>
+<p>We didn’t find any evidence that blood-brain barrier penetrance is what drives symptom improvement in people with severe mental illness prescribed statins. Though, with our outcome as it was, and relatively small sample size, it is possible that our study missed smaller improvements in symptoms.</p>
+<p>We found some evidence of improvement in people prescribed statins that inhibited a membrane protein and the antipsychotics that used that protein. However, these were scattered across several of our analyses, and are therefore hard to interpret. I won’t go into details here - it’s all in the paper!</p>
 </section>
 <section id="final-thoughts" class="level2">
 <h2 class="anchored" data-anchor-id="final-thoughts">Final thoughts</h2>
-<p>TTEs certainly have a role in the improvement of</p>
+<p>TTEs certainly have a role in the improvement of observational epidemiology, and emulating trials is useful where we can’t easily do them. However, they are not straightforward and often require large starting sample sizes due to the need to exclude individuals. Those exclusions can then hamper generalisability.</p>
+<p>We had hoped that our study would find potential combinations of statins and antipsychotics that we could test in an RCT, but that didn’t really happen. However, if we were to start somewhere, it would be combinations of statins that inhibit the membrane protein and the antipsychotics that use it.</p>
 
 
 </section>
