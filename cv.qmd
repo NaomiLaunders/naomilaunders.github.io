@@ -14,7 +14,7 @@ I am an HDR-UK funded research fellow and epidemiologist, with extensive experie
 # Education / Qualifications
 
 | Qualification                     | Institution                                    | Year |
-|-----------------------|-------------------------------|------------------|
+|-----------------------------------|------------------------------------------------|------|
 | PhD in psychiatric epidemiology   | University College London                      | 2023 |
 | MSc Control of Infectious Disease | London School of Hygiene and Tropical Medicine | 2005 |
 | BSc Biology with a Year in Europe | Imperial College London                        | 2004 |
@@ -56,7 +56,7 @@ I am an HDR-UK funded research fellow and epidemiologist, with extensive experie
 # Prizes, Awards and Other Honours
 
 | Award                                                                            | Awarding body                  | Year |
-|-----------------------------------|------------------|------------------|
+|----------------------------------------------------------------------------------|--------------------------------|------|
 | HDR UK travel bursary                                                            | HDR UK                         | 2025 |
 | Michael King Prize: Best PhD thesis on mental health at UCL                      | UCL Institute of Mental Health | 2023 |
 | Funded attendance NIHR Team Science camp on multiple long-term conditions        | NIHR                           | 2023 |
@@ -68,7 +68,7 @@ I am an HDR-UK funded research fellow and epidemiologist, with extensive experie
 # Grants
 
 |                                                          |                          |              |          |
-|---------------------|-----------------|-----------------|-----------------|
+|----------------------------------------------------------|--------------------------|--------------|----------|
 | **Grant**                                                | **Awarding body**        | **Role**     | **Year** |
 | Big Data for Complex Disease Driver Programme Fellowship | Health Data Research UK  | PI           | 2024     |
 | NIHR Team Science Award                                  | NIHR                     | Co-PI        | 2024     |
