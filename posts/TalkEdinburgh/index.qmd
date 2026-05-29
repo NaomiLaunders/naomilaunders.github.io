@@ -1,0 +1,19 @@
+---
+title: "A Scottish research visit"
+description: "This week I've been in Scotland presenting on the physical health of people with mental illness. Watch my new talk here"
+image: "glasgow.jpg"
+categories: [Talks]
+author: "Naomi Launders"
+date: "10/14/2025"
+toc: false
+---
+
+## A Scottish research visit
+
+This past week I have been in Edinburgh and Glasgow. While I've been to Edinburgh many times, this was my first visit to Glasgow. The photo on this post is from the amazing street art walk I went on on Sunday.
+
+As well as a bit of sight-seeing, I also managed to catch up with colleagues at the University of Edinburgh where I presented on cardiovascular disease and cancer in people with severe or complex mental illness. You can watch the talk [here](https://media.ed.ac.uk/media/Epidemiology+Research+Group+seminar+-+Dr+Naomi+Launders+-+8th+Oct+2025/1_chfi2qit).
+
+I also went to the [Mental Health Platform research summit](https://www.mentalhealthplatform.ac.uk/index.php/mhp-research-summit) where I presented our target trial emulation of statins for symptom improvement in people with severe mental illness. It was a real challenge to fit it all into a three-minute flash talk, so I made a poster too. All the code, the poster, the pre-print etc are on my GitHub page [here](https://github.com/NaomiLaunders/Repurposing-statins-in-SMI/)!
+
+And finally, tomorrow I am moving on to the [Health Data Research UK conference](https://www.hdruk.ac.uk/about/hdr-uk-conference/) where I am looking forward to catching up with colleagues in the Big Data for Complex Disease programme and hearing about the evolving state of health care data in the UK.

@@ -1,0 +1,27 @@
+---
+title: "When the Dr doesn't call"
+description: "Our new study looks at who isn't included in physical health checks for people with severe mental illness"
+image: "HandHeart.jpg"
+categories: [Studies]
+author: "Naomi Launders"
+date: "08/10/2025"
+toc: false
+---
+
+Our latest research has found that almost 28% of people with severe mental illness are removed from the totals used to calculate how many people have been offered physical health screening. Men, younger people, white people and people who had a diagnosis of psychosis not due to schizophrenia or bipolar disorder were particularly likely to be removed from the totals, and those with a diagnosis of schizophrenia were likely to be removed due to informed dissent.
+
+## The world of pay-for-results
+
+Doctors practices in England receive payments for achieving results. These include things like offering stop smoking services to all smokers and making sure that people with heart conditions are getting the right treatment. For people with severe mental illness (SMI), GPs receive payments if all people with SMI have a health check.
+
+But, some people might not want that health check, and others might not be suitable for the health check. To make it fair across all GP practices. doctors can remove these people from their tally.
+
+## Why are we interested in who isn't included?
+
+Removing people who don't need these health checks makes sense if they truly don't need them. Equally, if someone is making an informed decision not to have a health check, that's also fine. But, just because a patient doesn't attend their appointment doesn't mean they don't need or want their physical health checked. There are lots of potential reasons why someone might not respond to an invitation, or might miss an appointment.
+
+## What do our findings mean?
+
+The proportion of patients removed for "informed dissent" appears to be increasing. However, whether this truly represents informed dissent is hard to work out. Some people with severe mental illness may be missing invitations due to their poor mental health. If they are recorded as "informed dissent" they may not be contacted again for physical health screening in that year. While a GP still has duty of care for people who are removed from the totals, more needs to be done to ensure those people who may struggle to respond to invitations to screening, to book appointments, or to attend the GP practice have access to these important screening programmes every year.
+
+[Read the full paper at BMJ Mental Health](https://pubmed.ncbi.nlm.nih.gov/40377164/).
