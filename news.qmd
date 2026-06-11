@@ -7,6 +7,14 @@ toc: false
 
 Highlights of my current and past research from other sources.
 
+## June 2026
+
+This week I presented at a webinar for researchers interested in using UK Longitudinal Linkage Collaboration. I have been working with UK LLC for just over a year now and my research project is almost complete. So, here I discuss the results of my research, but more importantly, how I got there and what it's like to work with UK LLC. Watch the full webinar here, my part starts at 41 mins: [UK Longitudinal Linkage Collaboration - a simpler, faster solution to use linked data for research](https://www.youtube.com/watch?v=P97hHuZbdHg)
+
+## April 2026
+
+As a member of the Office for Health Improvement and Disparities Severe Mental Illness Expert Reference Group, I have been providing advice on the phenotyping of SMI using medical records. Our SMI phenotype is referenced in their latest publication on [the estimated prevalence of severe mental illness in England](https://www.gov.uk/government/statistics/adult-mental-health-and-wellbeing-profile-april-2026-update/estimated-prevalence-of-severe-mental-illness-in-england-report#fn:5).
+
 ## January 2026
 
 [Here's a blog I wrote for the UK Longitudinal Linkage Collaboration](https://ukllc.ac.uk/blog/2026/01/29/who-gets-screened-linking-data-to-better-understand-cholesterol-screening-in-people-with-mental-illness.html) on using their platform of linked cohort and medical record data. We're trying to determine whether we can use this data to look at access to NHS health screening programmes for people with severe or complex mental illness as part of my Health Data Research UK (HDR UK) fellowship.It's proving challenging due to small numbers of individuals across many cohort studies, and concerns about whether these individuals are representatives of those with mental health conditions. But, it's a fantastically rich resource and hopefully this work will be a first step in saying a bit more about who with mental illness attends screening.
@@ -14,6 +22,10 @@ Highlights of my current and past research from other sources.
 ## January 2026
 
 [A great write up](https://www.nationalelfservice.net/other-health-conditions/cardiovascular-disease/cardiovascular-screening-severe-mental-illness/) by the Mental Elf team of our recent paper on the gaps in physical health screening for people with severe mental illness.
+
+## November 2025
+
+Our work, showing that people with severe mental illness have more physical health conditions and develop multimorbidity early was quoted in the UK COVID-19 inquiry, as part of the report on the impact of the COVID-19 pandemic on people with severe mental health conditions. [Read it here](Our%20research%20shows%20that%20people%20with%20severe%20mental)
 
 ## November 2025
 
@@ -71,7 +83,7 @@ HDR UK article on the Big Data for Complex Disease fellowship programme: [Ambiti
 
 ## November 2023
 
-Evidence from our systematic review on physical health hospitalisations in people with severe mental illness was used by the International Primary Care Respiratory Group to inform targeted recommendations on COPD diagnosis and treatment for people with severe mental illness
+Evidence from our systematic review on physical health hospitalisations in people with severe mental illness was used by the International Primary Care Respiratory Group to inform targeted recommendations on [COPD diagnosis and treatment for people with severe mental illness](https://www.ipcrg.org/sites/default/files/content/document/Desktop%20Helper%20No16%20Severe%20mental%20illness%2C%20tobacco%20dependence%20and%20chronic%20obstructive%20pulmonary%20disease%20%28COPD%29.pdf?cfv=55633d21)
 
 ## January 2023
 
